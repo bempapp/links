@@ -1,0 +1,72 @@
+
+body {
+  background: url('../images/background.webp') no-repeat center;
+  background-size: cover;
+  font-family: "Work Sans",Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+}
+
+body:before {
+  content: "";
+  background: #5f2482;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .8;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 2em 0 1em 0;
+}
+
+footer {
+  padding: .5em;
+  opacity: 0.4;
+  font-size: .8em;
+  text-align: right;
+}
+
+.wave-bottom,
+.wave-top {
+  opacity: 0.3;
+}
+
+.links {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.links a {
+  display: block;
+  border-radius: 10px;
+  padding: 1em;
+  text-decoration: none;
+  background-color: #fff;
+  color: #5f2482;
+  border: 1px solid #fff;
+}
+
+.links i {
+  float: left;
+}
+
+.links a:hover,
+.links a:active {
+  border-color: #5f2482;
+}
